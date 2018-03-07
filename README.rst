@@ -22,25 +22,29 @@ Available ciphers
 Examples
 --------
 
-**AES message encryption** ::
+**AES message encryption**:
+  .. code:: python
 
     import rcrypt
     cipher = rcrypt.AESCipher('password', 'salt')
     ciphertext = cipher.encrypt('My secret message')
 
-**Blowfish file encryption** ::
+**Blowfish file encryption**:
+  .. code:: python
 
     import rcrypt
     cipher = rcrypt.BlowfishCipher('password', 'salt')
     cipher.encrypt_file('secret_document.txt')
 
-**RSA message encryption** ::
+**RSA message encryption**:
+  .. code:: python
 
     import rcrypt
     cipher = rcrypt.RSACipher('public_key.pem')
     ciphertext = cipher.encrypt('My secret message')
 
-**Hybrid AES-RSA file encryption** ::
+**Hybrid AES-RSA file encryption**:
+  .. code:: python
 
     import rcrypt
     aesrsa = rcrypt.HybridAESRSACipher('public.key', 'private_key')

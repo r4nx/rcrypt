@@ -4,4 +4,4 @@ AESCipher
 .. module:: rcrypt
 
 .. autoclass:: AESCipher
-:members:
+    :members:

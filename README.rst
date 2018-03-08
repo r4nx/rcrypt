@@ -53,4 +53,4 @@ Examples
 Documentation
 -------------
 
-Full documentation can be found `here <https://r4nx.github.io/rcrypt>`_.
+Full documentation can be found `here <https://rcrypt.readthedocs.io>`_.
